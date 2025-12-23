@@ -1,5 +1,6 @@
 # Korean Medicine RAG & Embedding Optimization (한의학 특화 RAG 및 임베딩 최적화)
-This project explores methodologies to improve embedding performance in Oriental Medicine, addressing issues like **token overlap bias** and **data scarcity**. It validates these methods through an optimized RAG system evaluated on the **Korean National Licensing Exam for Korean Medicine**.
+This project explores methodologies to improve embedding performance in Korean Medicine, addressing issues like token overlap bias. It validates these methods through an optimized RAG system evaluated on the Korean National Licensing Exam for Korean Medicine.
+본 연구는 한의학 도메인에서 발생하는 '단순 토큰 중복 의존(Token Overlap Bias)' 등 llm이 한의학 전문 언어를 잘 다루지 못하는 문제를 해결하기 위해, 원문-번역 대조 학습 및 합성 질의 기반 파인튜닝을 적용한 임베딩 개선 방법론을 제안합니다. 이를 기반으로 최적화된 RAG 시스템을 구축하고, 한의사 국가고시(사상의학 과목 + 상한론 과목) 평가를 통해 모델의 심층적 의미 파악 능력과 일반화 성능을 입증하고자 합니다.
 
 > **Reference**: Inspired by research from Gachon University (Prof. Kim Chang-eop) on the limitations of LLMs in Oriental Medicine.
 
